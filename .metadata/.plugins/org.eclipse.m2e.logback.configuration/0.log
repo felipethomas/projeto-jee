@@ -1629,3 +1629,22 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.transac
 2019-06-21 15:05:38,188 [Worker-259: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jee
 2019-06-21 15:05:38,188 [Worker-259: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jee
 2019-06-21 15:05:38,194 [Worker-259: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-21 15:17:09,008 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-06-21 15:17:18,283 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.treinamento:jee:0.0.1-SNAPSHOT @ /home/01308900490/ambientes/treinamento/projeto-jee/jee/pom.xml.
+2019-06-21 15:17:19,038 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-21 15:17:19,042 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-06-21 15:17:19,051 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-21 15:17:19,051 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/01308900490/ambientes/treinamento/projeto-jee/jee/src/test/resources
+2019-06-21 15:17:19,054 [Worker-1: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jee
+2019-06-21 15:17:19,054 [Worker-1: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jee
+2019-06-21 15:17:19,058 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-21 15:17:40,463 [Worker-14: Launching clean install] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/01308900490/ambientes/treinamento/projeto-jee/jee
+2019-06-21 15:17:40,464 [Worker-14: Launching clean install] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2019-06-21 15:17:40,464 [Worker-14: Launching clean install] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2019-06-21 15:18:15,682 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-21 15:18:15,687 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-06-21 15:18:15,689 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-21 15:18:15,689 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/01308900490/ambientes/treinamento/projeto-jee/jee/src/test/resources
+2019-06-21 15:18:15,689 [Worker-12: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jee
+2019-06-21 15:18:15,689 [Worker-12: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jee
+2019-06-21 15:18:15,693 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
