@@ -2932,3 +2932,6 @@ Java Model Exception: Java Model Status [Index out of bounds]
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2019-06-21 14:43:36.283
 !MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2019-06-21 15:03:31.270
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
