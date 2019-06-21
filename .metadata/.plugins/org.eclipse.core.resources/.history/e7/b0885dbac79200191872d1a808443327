@@ -1,0 +1,16 @@
+package rest;
+
+import javax.ws.rs.Path;
+
+@Path("/saudacao")
+public class SaudacaoResource {
+
+	private Repository saudacaoRepository;
+	
+	public Response getClichedMessage() {
+	Map<String, String> response = new HashMap<String, String>();
+	response.put("id:", saudacaoRepository.findById(1L).getId().toString());
+	
+    return Response.ok(response).build();
+}
+}

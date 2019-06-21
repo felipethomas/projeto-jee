@@ -1,0 +1,7 @@
+/home/01308900490/ambientes/workspace-treinamento-eclipse/jee/src/main/java/rest/SaudacaoResource.java
+/home/01308900490/ambientes/workspace-treinamento-eclipse/jee/src/main/java/model/Saudacao.java
+/home/01308900490/ambientes/workspace-treinamento-eclipse/jee/src/main/java/persistence/Repository.java
+/home/01308900490/ambientes/workspace-treinamento-eclipse/jee/src/main/java/rest/HelloWorldResource.java
+/home/01308900490/ambientes/workspace-treinamento-eclipse/jee/src/main/java/persistence/SaudacaoRepository.java
+/home/01308900490/ambientes/workspace-treinamento-eclipse/jee/src/main/java/persistence/SaudacaoEntityManager.java
+/home/01308900490/ambientes/workspace-treinamento-eclipse/jee/src/main/java/rest/BaseRestApplication.java

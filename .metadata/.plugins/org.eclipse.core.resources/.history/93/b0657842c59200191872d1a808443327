@@ -1,0 +1,13 @@
+package persistence;
+
+import javax.persistence.EntityManager;
+
+public class SaudacaoRepository  implements Repository {
+	
+	private EntityManager entityManager;
+	
+	public Long findById(Long id) {
+		
+	}
+
+}

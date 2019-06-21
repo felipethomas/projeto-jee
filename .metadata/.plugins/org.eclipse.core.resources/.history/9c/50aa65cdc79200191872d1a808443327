@@ -1,0 +1,22 @@
+package rest;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.ws.rs.Path;
+import javax.ws.rs.core.Response;
+
+import persistence.Repository;
+
+@Path("/saudacao")
+public class SaudacaoResource {
+
+	private Repository saudacaoRepository;
+
+	public Response getClichedMessage() {
+		Map<String, String> response = new HashMap<String, String>();
+		response.put("id:", saudacaoRepository.findById(1L).getId().toString());
+
+		return Response.ok(response).build();
+	}
+}

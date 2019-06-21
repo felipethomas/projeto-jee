@@ -1,0 +1,7 @@
+rest/BaseRestApplication.class
+persistence/SaudacaoEntityManager.class
+rest/HelloWorldResource.class
+model/Saudacao.class
+persistence/Repository.class
+persistence/SaudacaoRepository.class
+rest/SaudacaoResource.class

@@ -1,0 +1,13 @@
+1560958056593	Delete element
+1560958106242	Delete element
+1560958161504	Delete element
+1560958241150	Move 'test' to 'src'
+1560962360238	Delete elements
+1560962926722	Move 'META-INF' to 'main'
+1560962931543	Move 'META-INF' to 'resources'
+1560966500400	Rename type 'Greeting'
+1560972118866	Rename type 'HelloWorldApplication'
+1561128237748	Rename type 'EntityManager'
+1561129810932	Delete element
+1561130286035	Delete element
+1561130487463	Rename field 'entityManager'
