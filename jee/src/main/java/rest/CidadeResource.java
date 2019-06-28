@@ -1,5 +1,6 @@
 package rest;
 
+<<<<<<< HEAD
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -24,5 +25,8 @@ public class CidadeResource {
 		Cidade cidade = cidadeRepository.findById(id);
 		return Response.ok(cidade).build();
 	}
+=======
+public class CidadeResource {
+>>>>>>> bb8297d08de40ddb303179b3f7b1b8cd42136b47
 
 }

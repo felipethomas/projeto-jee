@@ -1,7 +1,0 @@
-package persistence;
-
-public interface Repository {
-	
-	Long findById(Long id);
-
-}
