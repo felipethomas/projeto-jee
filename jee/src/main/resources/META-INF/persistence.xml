@@ -5,6 +5,7 @@
  <persistence-unit name="treinamentojee">
    <jta-data-source>java:jboss/datasources/TreinamentoJeeDS</jta-data-source>
 
+   <class>model.Cidade</class>
    <class>model.Saudacao</class>
 
    <properties>

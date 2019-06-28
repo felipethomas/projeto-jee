@@ -1,0 +1,8 @@
+package rest;
+
+import javax.ws.rs.Path;
+
+@Path("/cidades")
+public class CidadeResource {
+
+}

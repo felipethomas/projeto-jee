@@ -14,13 +14,13 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import model.Saudacao;
-import persistence.Repository;
+import persistence.SaudacaoRepository;
 
 @Path("/saudacoes")
 public class SaudacaoResource {
 
 	@Inject
-	private Repository saudacaoRepository;
+	private SaudacaoRepository saudacaoRepository;
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)

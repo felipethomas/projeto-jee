@@ -1,0 +1,39 @@
+package persistence;
+
+import java.util.List;
+
+import javax.inject.Inject;
+import javax.persistence.EntityManager;
+import javax.transaction.Transactional;
+
+import model.Saudacao;
+
+@Transactional(rollbackOn = { Exception.class })
+public class SaudacaoRepositoryImpl implements Repository {
+
+	@Inject
+	private EntityManager entityManagerApp;
+
+	public Saudacao findById(Long id) {
+		return entityManagerApp.find(Saudacao.class, id);
+	}
+
+	@SuppressWarnings("unchecked")
+	public List<Saudacao> findAll() {
+		return entityManagerApp.createQuery("FROM Saudacao ORDER BY id").getResultList();
+	}
+
+	public void persist(Saudacao saudacao) {
+		entityManagerApp.persist(saudacao);
+	}
+
+	public void merge(Saudacao saudacao) {
+		entityManagerApp.merge(saudacao);
+	}
+
+	public void remove(Long id) {
+		Saudacao saudacao = entityManagerApp.find(Saudacao.class, id);
+		entityManagerApp.remove(saudacao);
+	}
+
+}
